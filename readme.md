@@ -21,7 +21,7 @@ git remote show origin
 5. Push or upload local changes to remote repo
 ```bash
 git status                                  # see current status
-git add .                                   # prepare to save all changes)
+git add .                                   # prepare to save all changes
 git commit -m "Description"                 # save prepared changes locally, providing a message or description
 git push -u origin <branch name>            # send commits to remote repo to update it
 git pull --rebase origin <branch name>      # stay updated with remote changes
