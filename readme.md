@@ -1,4 +1,4 @@
-# This is a demo on using git and github
+# This is a demo on using git and GitHub
 
 ## Steps
 ### Setup
@@ -20,10 +20,11 @@ git remote show origin
 ```
 5. Push or upload local changes to remote repo
 ```bash
-git status                          # see current status
-git add .                           # prepare to save all changes)
-git commit -m "Description"         # save prepared changes locally, providing a message or description
-git push -u origin main             # send commits to remote repo to update it
+git status                                  # see current status
+git add .                                   # prepare to save all changes)
+git commit -m "Description"                 # save prepared changes locally, providing a message or description
+git push -u origin <branch name>            # send commits to remote repo to update it
+git pull --rebase origin <branch name>      # stay updated with remote changes
 ```
 6. Logout of GitHub on shared computers
 ```bash
@@ -34,4 +35,3 @@ git credential-manager github list
 1. Stage > git add .
 2. Commit > git commit -m "message
 3. Push"> git push
-
