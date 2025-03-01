@@ -28,7 +28,10 @@ git push -u origin main             # send commits to remote repo to update it
 6. Logout of GitHub on shared computers
 ```bash
 git credential-cache exit
+git credential-manager github list
 ```
-
 ### Development
+1. Stage > git add .
+2. Commit > git commit -m "message
+3. Push"> git push
 
