@@ -31,6 +31,13 @@ git pull --rebase origin <branch name>      # stay updated with remote changes
 git credential-cache exit
 git credential-manager github list
 ```
+7. If you have a local clone, you can update it by running the following commands
+```bash
+git branch -m <branch name>
+git fetch origin
+git branch -u origin/main <branch name>
+git remote set-head origin -a
+```
 ### Development
 1. Stage > git add .
 2. Commit > git commit -m "message
